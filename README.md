@@ -1,4 +1,4 @@
-🎙️ Deepfake Audio Detector
+🎙️ DeepGuard
 
 Detect whether an audio clip is real human speech or AI-generated (deepfake) using deep learning.
 

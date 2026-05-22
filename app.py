@@ -1,6 +1,5 @@
 # ============================================================
-#  Deepfake Audio Detector — Production-Grade v2.0
-#  Upgraded by: Senior ML Engineer
+#  DeepGuard — Production-Grade v2.0
 # ============================================================
 #
 #  v2.0 Upgrades over v1.0:
@@ -757,7 +756,7 @@ HTML = r"""<!DOCTYPE html>
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Deepfake Audio Detector v2</title>
+<title>DeepGuard v2</title>
 <link href="https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400&family=Syne:wght@400;600;700;800&display=swap" rel="stylesheet">
 <style>
 /* ── CSS Reset & Variables ──────────────────────────────────────── */
@@ -1030,7 +1029,7 @@ footer span{color:var(--muted);}
 <!-- ── HEADER ──────────────────────────────────────────────────── -->
 <header>
   <div class="header-badge"><span class="badge-dot"></span>AI Security Tool v2</div>
-  <h1>Deepfake Audio<br>Detector</h1>
+  <h1>DeepGuard</h1>
   <p class="subtitle">
     EfficientNet-B0 + BiLSTM + Attention · ASVspoof 2019
     <span class="version-tag" id="versionTag">v2.0.0</span>
@@ -1196,7 +1195,7 @@ footer span{color:var(--muted);}
 
 <!-- ── FOOTER ───────────────────────────────────────────────────── -->
 <footer>
-  <span>Deepfake Audio Detector</span> · EfficientNet-B0 + BiLSTM + Attention<br>
+  <span>DeepGuard</span> · EfficientNet-B0 + BiLSTM + Attention<br>
   Production build · <span id="footerVer">v2.0.0</span>
 </footer>
 
@@ -1568,7 +1567,7 @@ def favicon():
 
 if __name__ == "__main__":
     print("\n" + "="*60)
-    print(" 🎙  Deepfake Audio Detector  —  Production v2.0.0")
+    print(" 🎙  DeepGuard  —  Production v2.0.0")
     print("="*60)
     print(f" Device     : {DEVICE}")
     print(f" N_Frames   : {N_FRAMES}  (real temporal sequence for LSTM)")
